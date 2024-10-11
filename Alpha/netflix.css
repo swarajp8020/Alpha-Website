@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/Netflix/netflix\ banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+#nav #left span{
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(229,9,20);
+}
+#nav #right #login{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 30px;
+    position: relative;
+    left: 21px;
+}
+#login a{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+}
+#nav #right #drop #menu{
+    list-style: none;
+    display: none;
+    cursor: pointer;
+    list-style: none;
+}
+#nav #right #drop{
+    background-color: transparent;
+    color: white;
+    padding: 10px 45px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+#cont{
+    color: white;
+    position: absolute;
+}
+#Cont h1{
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+#cont p{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 75px;
+}
+#cont #btn #a{
+    text-decoration: none;
+    color: white;
+}
+#cont #btn{
+    background-color: red;
+
+}
+#cont #inp{
+    margin-left: 10px;
+}
+#Enjoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+#Enjoy div{
+    width: 45%;
+}
+#left h1{
+    font-size: 48px;
+}
+#left p{
+    font-size: 24px;
+}
+#right{
+    position: relative;
+}
+#right img{
+    width: 100%;
+}
+#right video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+
+}
+#cont{
+    background-color: black;
+}

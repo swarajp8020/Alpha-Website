@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+#cont{
+    background-color: coral;
+    width: 10%;
+    height: 200vh;
+}
+#nav{
+    margin: 0px;
+    padding: 0px;
+}
+#nav li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+}
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: violet;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+#ip{
+    position: relative;
+}
+#imenu{
+    width: 150%;
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: burlywood;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+#ip:hover #menu{
+    display: block;
+}

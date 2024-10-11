@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/Netflix/netflix\ banner.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar #left img{
+    padding-left: 172px;
+    margin-top: 26px;
+    width: 142px;
+    height: 43px;
+}
+#navbar #right button{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.Lang li {
+    list-style: none;
+    margin: 5px 0;
+}
+.Lang a {
+    text-decoration: none;
+    color: #333;
+}
+.Lang a:hover {
+    color: #007bff;
+}
+#navbar #right #Lang{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+}
+#navbar #right #signin{
+    background-color: red;
+    border-radius: 5px;
+    width: 78px;
+    height: 30px;
+    padding: 4px 16px;
+    margin-top: 26px;
+    margin-right: 189px;
+    font-weight: bold;
+}
+#navbar #right #lang{
+    background-color: #181517;
+    width: 127px;
+    height: 43px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0.5px solid lightgrey;
+    margin-right: 18px;
+    margin-top: 10px;
+}
+#navbar #right #lang i{
+    margin: 6px
+}
+#navbar #right #lang img{
+    width: 10px;
+    height: 10px;
+    color: white;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+#body {
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+    font-size: bold;
+}
+#body h1{
+    font-size: 45px;
+    font-family: 'Public Sans', sans-serif;
+}
+#body p{
+    font-size: 20px;
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
+#body #mid{
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 50px;
+    padding-left: 570px;
+    margin: 0px;
+    font-size: bold;
+}
+#body button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: 213px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    margin-right: 0px;
+    padding-right: 8px;
+    font-size: bold;
+}
+#body input{
+    background-color: #1815179d;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    padding-right: 180px;
+    width: 198px;
+    margin-left: -105px;
+    font-size: bold;
+}
+#cont{
+    color: white;
+    position: absolute;
+}
+#Cont h1{
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+#cont p{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 75px;
+}
+#cont #btn #a{
+    text-decoration: none;
+    color: white;
+}
+#cont #btn{
+    background-color: red;
+
+}
+#cont #inp{
+    margin-left: 10px;
+}
+#Enjoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 350px 0px 0px 0px;
+    padding: 0px 0px 125px 0px;
+    align-items: center;
+}
+#Enjoy div{
+    width: 45%;
+}
+#left h1{
+    font-size: 48px;
+    margin: -200px 0px 20px 68px;
+    padding: 115px 0px 0px 129px;
+}
+#left p{
+    font-size: 24px;
+    margin: 0px -339px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#left #s1{
+    font-size: 24px;
+    margin: 0px -177px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#right{
+    position: relative;
+}
+#right img{
+    width: 100%;
+}
+#right video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+
+}
+/* #cont{
+    background-color: black;
+} */
+#Download{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 350px 0px 0px 0px;
+    padding: 0px 0px 125px 0px;
+    align-items: center;
+}
+#Download #third{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 350px 0px 0px 0px;
+    padding: 0px 0px 125px 0px;
+    align-items: center;
+}

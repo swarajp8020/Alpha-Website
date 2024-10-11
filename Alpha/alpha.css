@@ -1,0 +1,310 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/Alpha/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    object-fit: contain;
+    transition-timing-function: ease-in ;
+    transition: all 1s;
+}
+#navbar #left h1{
+    margin: 0px;
+    font-size: 15px;  
+}
+#navbar #right ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    margin: 0px 41px;
+}
+#navbar__black{
+    background-color: #bbb;
+}
+#navbar #right ul li button{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid darkgrey;
+    width: 93px;
+    height: 38px;
+}
+#body{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+
+}
+#body h1{
+    color: #fff;
+    font-size: 58px;
+    margin-bottom: 0px;
+}
+#body p{
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+#body button{
+    color: grey;
+    border-radius: 5px;
+    width: 270px;
+    height: 50px;
+    border: none;
+    font-size: larger;
+    margin-right: 20px;
+}
+#body #Learn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#intro{
+    background-color: white;
+    color: #646464a3;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 1px;
+    margin-top: 200px;
+}
+#intro h1{
+    font-size: 40px;
+
+}
+#intro p{
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#intro img{
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+#intro img{
+    width: 100%;
+
+}
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    color:#6a6a6a;
+
+}
+#icon div{
+    display: inline-block;
+    width: 47%;
+    text-align: center;
+}
+.fa.fa-bolt{
+    color: white;
+    background-color: #e89980;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px 30px;
+}
+
+.fa.fa-area-chart{
+    color: white;
+    background-color: #7fcdb8;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px 20px;
+}
+.fa.fa-cloud{
+    color: white;
+    background-color:#90b0ba;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px 20px;
+}
+.fa.fa-lock{
+    color: white;
+    background-color: #e5cb95;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px 30px;
+}
+#icon div h1{
+    font-size: 25px;
+}
+
+#icon div p{
+    font-size: 21px;
+    margin-bottom: 60px;
+}
+#div1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    top:2px;
+    left:4px;
+
+}
+#div4{
+    border-left: solid 2px #e5e5e5;
+    border-top: solid 2px #e5e5e5;
+}
+#cont{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#signup{
+    background-color: #e89980;
+    padding: 3.5em 0 4em 0;
+    text-align: center;
+    
+}
+#signup h1 {
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+    color:#f9e6df;
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+#signup p{
+    color: #f9e6df ;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+#signup input{
+    color:#ffffff;
+    background-color: rgba(255,255,255,0.15);
+    border: none;
+    padding: 15px 41px;
+    padding-left: -2px;
+    padding-right: 4px;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 250px;
+    height: 2em;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.492);
+    font-size: 18px;
+    text-align: left;
+    font-weight: 100;
+}
+#signup input:hover{
+    border:2px solid white;
+    border-radius: 5px;
+
+}
+#signup button{
+     padding: 15px 39px; 
+    color: #e89b8c;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    height: 4em;
+    width:11em;
+}
+#social{
+    text-align: center;
+    padding: 114px;
+    word-spacing: 114px;
+    font-size: 40px;
+    line-height: 1;
+    height: 200px;
+    color:#c6c6c6
+    
+    
+}
+#social #last h4{
+    display: inline;
+    font-size: 16px;
+    word-spacing: 0px;
+}
+#social i{
+    font-size: 25px;
+    letter-spacing: -0.015em;
+    margin: 0px -50px;
+    justify-content: space-between;
+}
+#social #last h4{
+    display: inline-block;
+    color: #999;
+    line-height: 1em;
+    padding: 0px;
+    margin: 2em 0 0 0;
+    font-size: 16px;
+    list-style: none;
+    word-spacing: 0px;
+    justify-content: center;
+    
+    
+}
+#card {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap:30px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}
+
+#card #swaraj1 img{ 
+    height: 216px;
+    width: 94%;
+}
+#card #swaraj2 img{
+    height: 216px;
+    width:94%
+}
+#card h1{
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+    color:rgba(0, 0, 0, 0.41);
+    font-weight: 550;
+    margin-bottom: 0px;
+    background-color: white;
+}
+#card p{
+    color: rgba(0, 0, 0, 0.41) ;
+    font-size: 17px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+#card button{ 
+    padding: 3px 3px; 
+    margin: 5px 76px ;
+    color:black;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #8080804a;
+    align-items:center ;
+    height: 4em;
+    width:11em;
+
+}
